@@ -1,8 +1,11 @@
 {
-  "buildCommand": "cd client && npm install && npm run build",
+  "buildCommand": "cd client && npm run build",
   "outputDirectory": "client/dist",
   "installCommand": "cd client && npm install",
   "framework": "vite",
+  "env": {
+    "VITE_API_URL": "https://hospital-management-z9iy.onrender.com/api"
+  },
   "rewrites": [
     {
       "source": "/((?!assets/|.*\\..*).*)",
