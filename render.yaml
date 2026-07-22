@@ -19,4 +19,6 @@ services:
       - key: JWT_REFRESH_EXPIRATION
         value: 7d
       - key: CORS_ORIGIN
-        sync: false
+        value: https://hospital-management-lime-phi.vercel.app
+      - key: CLIENT_URL
+        value: https://hospital-management-lime-phi.vercel.app
